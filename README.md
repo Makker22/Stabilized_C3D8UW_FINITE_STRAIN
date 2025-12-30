@@ -1,0 +1,1 @@
+# Stabilized_C3D8UW_FINITE_STRAIN
