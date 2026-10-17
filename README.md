@@ -5,10 +5,6 @@ Abaqus/Standard user element for **saturated porous media in the u–w formulati
 The repository contains the element, a centrifuge-test validation (Wilson 1998, pile in liquefiable sand)
 and two single-element tests of the constitutive model.
 
-> **Related paper:** the formulation and the applications are described in a manuscript currently
-> **under review in the *Journal of Geotechnical and Geoenvironmental Engineering* (ASCE, JGGE)**.
-> Citation details will be added after acceptance.
-
 > **UMAT source:** the SANISAND-MS material routines are based on the open-source UDSM implementation by
 > F. Pisanò and co-workers, [FedericoPisano/SANISAND-MS-UDSM](https://github.com/FedericoPisano/SANISAND-MS-UDSM)
 > (GPL-3.0). The constitutive sources are used unchanged; this repository adds an Abaqus UMAT interface
@@ -124,7 +120,6 @@ Abaqus 2024 (Standard) with Intel Fortran (oneAPI 2022). The Wilson model was ru
 - Wilson, D. W. (1998). *Soil-pile-superstructure interaction in liquefying sand and soft clay.* Ph.D. dissertation, UC Davis, Report UCD/CGM-98/04.
 - Liu, H. Y., Abell, J. A., Diambra, A., Pisanò, F. (2019). Modelling the cyclic ratcheting of sands through memory-enhanced bounding surface plasticity. *Géotechnique*, 69(9), 783–800.
 - SANISAND-MS UDSM implementation: https://github.com/FedericoPisano/SANISAND-MS-UDSM
-- Related manuscript: under review, *Journal of Geotechnical and Geoenvironmental Engineering* (ASCE).
 
 ## License
 
