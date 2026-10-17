@@ -85,9 +85,9 @@ abaqus job=wilson_csp3 user=UEL_C3D8UW_SANISAND-MS.for cpus=22 interactive
 
 Results compared with the test:
 
-![Soil response](images/wilson_csp3_soil_response.pdf)
+![Soil response](images/wilson_csp3_soil_response.svg)
 
-![Pile response](images/wilson_csp3_pile_response.pdf)
+![Pile response](images/wilson_csp3_pile_response.svg)
 
 | Quantity | r | nRMSE |
 |---|---|---|
@@ -105,7 +105,7 @@ small entry point `elem_umat` so that the material can be driven point-wise (e.g
 on Toyoura sand (p_in = 294 kPa, e_in = 0.808, q_ampl = 114.2 kPa, Table A1 parameters, μ0 = 45, ζ = 1×10⁻⁵, β = 16.5).
 The unloading–reloading positions p′ of the four cycles are 236 / 208 / 190 / 172 kPa (original: 237 / 209 / 190 / 161 kPa).
 
-![Element test 1](images/element_test_1_liu2019_fig_A2b.pdf)
+![Element test 1](images/element_test_1_liu2019_fig_A2b.svg)
 
 **Test 2 – dilation spikes.** Nevada sand with the parameters of the pile model, p_in = 45 kPa (≈ 4.6 m depth), undrained
 cyclic triaxial loading with a smooth sinusoidal axial strain (amplitude 0.05 % → 0.5 %). Sharp stress peaks with
@@ -113,7 +113,7 @@ simultaneous pore-pressure drops appear at high pore pressure, and the stress pa
 phase-transformation line after p′ drops to about 7 kPa. This is the element-level origin of the acceleration spikes
 seen in the centrifuge test.
 
-![Element test 2](images/element_test_2_dilation_spikes.pdf)
+![Element test 2](images/element_test_2_dilation_spikes.svg)
 
 ## Requirements
 
